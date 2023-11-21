@@ -1,100 +1,177 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* TAGS------------------------------------------------------------------------------- */
 
 h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 52px;
-    letter-spacing: 0em;
-    /* letter-spacing: 1px; */
-    text-align: left;
-    color:  #003655;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  /* letter-spacing: 1px; */
+  text-align: left;
+  color:  #003655;
 }
 h6{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    color: #222222;
-    /* text-align: left; */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #222222;
+  /* text-align: left; */
 }
+
+
+
 
 /* ENDING TAGS------------------------------------------------------------------------ */
 
 
+
+/* #navbarappoinment{
+  margin-left: 1%;
+} */
+
+.navbarphonenumber{
+  color: #171010;
+  font-family: Inter;
+  font-size: 19.221px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
 .fulfilinglove{
-    background-color: #DDECFF;
+  background-color: #DDECFF;
 }
 .fulfilinglove h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 52px;
-    letter-spacing: 0em;
-    letter-spacing: 1px;
-    text-align: left;
-    color:  #003655;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  letter-spacing: 1px;
+  text-align: left;
+  color:  #003655;
 }
 .fulfilinglove h6{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
-    color: #222222;
-    /* text-align: left; */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #222222;
+  /* text-align: left; */
 }
 .areyoulooking h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 52px;
-    letter-spacing: 0em;
-    /* letter-spacing: 1px; */
-    text-align: left;
-    color:  #003655;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  /* letter-spacing: 1px; */
+  text-align: left;
+  color:  #003655;
 }
 
 .areyoulooking h6{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    color: #222222;
-    /* text-align: left; */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #222222;
+  /* text-align: left; */
 }
 
 .areyoulooking{
-    margin-bottom: 15%;
+  margin-bottom: 15%;
 }
 
 
 /* OUR SERVICES---------------------------------------------------------------------- */
 
+.ourservices img{
+  padding-left: 16%;
+  
+}
 
 .ourservicesfirstcard{
-  background-color: #F1DAF7;
+background-color: #F1DAF7;
+font-family: 'Poppins', sans-serif;
+color: #222;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 141%; /* 23.97px */
 }
 
 .ourservicessecondcard{
-    background-color: #E7F2FF;
+  background-color: #E7F2FF;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%; /* 23.97px */
 }
 
-  .ourservicesthirdcard{
-    background-color: #FAF5E4;
-  }
+.ourservicesthirdcard{
+  background-color: #FAF5E4;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%; /* 23.97px */
+}
 
 .ourservices{
-    margin-bottom: 15%;
+  margin-bottom: 15%;
 }
 
 /* VAGINAL REJUVENATION ------------------------------------------------------------- */
 
 .Vaginalrejuvenation{
-    background-color:  #E7F2FF;
-    margin-bottom: 15%;
+  background-color:  #E7F2FF;
+  margin-bottom: 15%;
 }
+
+/*  FOOTER  ------------------------------------------------------------- */
+
+#footer{
+  background-color: #00527E;
+  color: #FFF;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Inter', sans-serif;
+
+}
+#footer h6{
+  color: #FFF;
+  font-size:  17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+.footerfirstblock{
+  padding-top: 9%;
+}
+
+.footersecondblock{
+  padding-top: 9%;
+}
+
+.footerthirdblock{
+  padding-top: 9%;
+}
+
