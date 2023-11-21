@@ -1,0 +1,100 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+/* TAGS------------------------------------------------------------------------------- */
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    /* letter-spacing: 1px; */
+    text-align: left;
+    color:  #003655;
+}
+h6{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #222222;
+    /* text-align: left; */
+}
+
+/* ENDING TAGS------------------------------------------------------------------------ */
+
+
+.fulfilinglove{
+    background-color: #DDECFF;
+}
+.fulfilinglove h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    letter-spacing: 1px;
+    text-align: left;
+    color:  #003655;
+}
+.fulfilinglove h6{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #222222;
+    /* text-align: left; */
+}
+.areyoulooking h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    /* letter-spacing: 1px; */
+    text-align: left;
+    color:  #003655;
+}
+
+.areyoulooking h6{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #222222;
+    /* text-align: left; */
+}
+
+.areyoulooking{
+    margin-bottom: 15%;
+}
+
+
+/* OUR SERVICES---------------------------------------------------------------------- */
+
+
+.ourservicesfirstcard{
+  background-color: #F1DAF7;
+}
+
+.ourservicessecondcard{
+    background-color: #E7F2FF;
+}
+
+  .ourservicesthirdcard{
+    background-color: #FAF5E4;
+  }
+
+.ourservices{
+    margin-bottom: 15%;
+}
+
+/* VAGINAL REJUVENATION ------------------------------------------------------------- */
+
+.Vaginalrejuvenation{
+    background-color:  #E7F2FF;
+    margin-bottom: 15%;
+}
