@@ -142,6 +142,15 @@ line-height: 141%; /* 23.97px */
   margin-bottom: 15%;
 }
 
+/*  FOUNDERS  ------------------------------------------------------------- */
+
+.founders{
+  background-color: #F2F2F2;
+  height: auto;
+  width: auto;
+}
+
+
 /*  FOOTER  ------------------------------------------------------------- */
 
 #footer{
