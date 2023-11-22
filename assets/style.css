@@ -90,7 +90,7 @@ h6{
 }
 
 .areyoulooking{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 
@@ -132,14 +132,14 @@ line-height: 141%;
 }
 
 .ourservices{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 /* VAGINAL REJUVENATION   */
 
 .Vaginalrejuvenation{
   background-color:  #E7F2FF;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 /*  FOUNDERS */
@@ -204,7 +204,7 @@ line-height: 141%;
 
 /*   CONTACT  PAGE   -------------------------------------------------------------- */
 
-/*  ENDING   CONTACT PAGE  --------------------------------------------------------- */
+/*  ENDING CONTACT PAGE  --------------------------------------------------------- */
  
 
 
@@ -242,8 +242,8 @@ line-height: 141%;
   font-weight: 400;
   line-height: normal;
   font-family: 'Inter', sans-serif;
-
 }
+
 #footer h6{
   color: #FFF;
   font-size:  17px;
@@ -264,7 +264,6 @@ line-height: 141%;
 .footerthirdblock{
   padding-top: 9%;
 }
-
 
 /*  ENDING  FOOTER  ------------------------------------------------------------- */
 
