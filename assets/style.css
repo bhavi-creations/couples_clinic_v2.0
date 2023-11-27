@@ -361,3 +361,8 @@ line-height: 141%;
 
 /*  ENDING  FOOTER  ------------------------------------------------------------- */
 
+.fulfilingloveiconbar{
+  position: fixed;
+  z-index: 9999;
+  background-color: #FFF;
+}
