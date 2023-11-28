@@ -4,9 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Work+Sans&display=swap');
 
 /* TAGS------------------------------------------------------------------------------- */
 
+*{
+  padding: 0;
+  margin: 0;
+}
 
 a{
   text-decoration: none;
@@ -143,13 +148,13 @@ h6{
 }
 
 .ourservicesfirstcard{
-background-color: #F1DAF7;
-font-family: 'Poppins', sans-serif;
-color: #222;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 141%; 
+  background-color: #F1DAF7;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%; 
 }
 
 .ourservicessecondcard{
@@ -190,18 +195,61 @@ line-height: 141%;
   height: auto;
   width: auto;
 }
+/* .founders img{
+  height: 39%;
+  width: 50%;
+} */
+.founders h1{
+  color: #00061A;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.founders h6{
+  color: #00061A;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
 /*  ENDING  INDEX PAGE   -------------------------------------------------------------- */
 
 
 /*  ABOUT PAGE    -------------------------------------------------------------- */
  
-.aboutus {
+/* .aboutus {
   background-image: url("img/about.png");
   background-repeat: no-repeat;
   height: 400px;
   width: 100%;
   position: relative;  
+} */
+.aboutus {
+  background-image: url("img/about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  .aboutus {
+    height: 300px; /* Adjust the height for tablets */
+    background-size: cover; /* You can use 'contain' if needed for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutus {
+    height: 200px;  
+    background-size: contain;  
+  }
 }
 
 .aboutus::before {
@@ -219,13 +267,25 @@ line-height: 141%;
    padding-top: 16%;
 }
  
-.ourstory{
-  /* position: relative;
-  margin-top: -8%; */
-  border-radius: 0.962px;
-  background: #FFF;
-  box-shadow: 0px 3.84694px 3.84694px 0px rgba(0, 0, 0, 0.25);
+.ourstory {
+  position: relative;
+  margin-top: -2%;
+  margin-left: 12%;
+  margin-right: 15%;
+  box-shadow: 20px 20px 20px 15px rgba(32, 32, 32, 0.1);
+  background: #FFF; /* Add a background color */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
+  padding: 20px; /* Add padding for content spacing */
 }
+
+/* .ourstory{
+  position: relative;
+  margin-top: -2%;
+  margin-left: 12%;
+  margin-right: 15%;
+  box-shadow: 20px 20px 20px 15px rgba(32, 32, 32, 0.1);
+} */
+
  
 
 
@@ -235,13 +295,40 @@ line-height: 141%;
 
 /*   CONTACT  PAGE   -------------------------------------------------------------- */
 
-.contactus {
+/* .contactus {
   background-image: url("img/contact\ us\ image.jpeg");
   background-repeat: no-repeat;
   height: 400px;
   width: 100%;
   position: relative;  
+} */
+
+
+
+.contactus {
+  background-image: url("img/contact us image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
 }
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  .contactus {
+    height: 300px; /* Adjust the height for tablets */
+    background-size: cover; /* You can use 'contain' if needed for tablets */
+  }
+}
+
+/* Adjust for mobile devices */
+/* @media (max-width: 480px) {
+  .contactus {
+    height: 200px;  
+    background-size: cover;  
+  }
+} */
 
 .contactus::before {
   content: "";
@@ -258,12 +345,20 @@ line-height: 141%;
    padding-top: 16%;
 }
 
-/* .ourstory{
-  margin-top: -2%;
+.getintouch{
+  position: relative;
+  margin-top: -4%;
   margin-left: 12%;
   margin-right: 15%;
-  box-shadow: 20px 20px 20px 15px rgba(32, 32, 32, 0.1);
+  box-shadow: 40px 40px 40px 15px rgba(32, 32, 32, 0.1);
+  background: #FFF; /* Add a background color */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
+  padding: 20px; /* Add padding for content spacing */
+}
 
+/* 
+#getintouchid{
+  margin-left: 14%;
 } */
 
 
@@ -274,6 +369,14 @@ line-height: 141%;
 
 /*   APPOINMENTPAGE      -------------------------------------------------------------- */
 
+.mainsection{
+  color: #444;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 .mainsectionimage{
    padding: 10% 5% 0% 20% ;
