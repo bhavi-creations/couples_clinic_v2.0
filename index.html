@@ -36,13 +36,19 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
+  <!-- Adding bootstrap plugin for Header -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </head>
 
 <body>
 
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <div class="col-3">
         <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
@@ -54,11 +60,6 @@
       <div class="collapse   navbar-collapse justify-content-center ml-auto" id="navbarNav">
         <ul class="navbar-nav">
           <div class="row">
-            <!-- <div class="col-3 ps-5"> 
-                  <li class="nav-item ps-5">
-                      <a class="nav-link active" aria-current="page" href="#"><img src="assets/img/logo.png" alt=""></a>
-                  </li>
-              </div> -->
             <div class="col-lg-3 col-sm-12 col-md-12 ps-5 me-5">
               <li class="nav-item ps-5 me-5">
                 <a class="nav-link active" aria-current="page" href="index.html"><img src="assets/img/logo.png"
@@ -87,7 +88,46 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light top_nav_bat ">
+    <div class="col-3">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 col-md-12 ps-5 me-5">
+            <li class="nav-item ps-5 me-5">
+              <a class="nav-link active" aria-current="page" href="index.html"><img src="assets/img/logo.png"
+                  alt=""></a>
+            </li>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-md-12 ms-5">
+            <li class="nav-item mt-3  navbarphonenumber">
+              <div class="row">
+                <div class="col-3 ps-2">
+                  <a class="nav-link" href="index.html"><img src="assets/img/phone.svg" alt=""> </a>
+                </div>
+                <div class="col-9 mt-2">
+                  <h5>+79979901881</h5>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-md-12 ms-5  mt-2 navbarappoinment">
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="appoinment.html"><button type="button"
+                  class="btn btn-primary">APPOINTMENT</button></a>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+</nav>
 
   <!-- Ending  Header -->
 
@@ -201,7 +241,7 @@
         <div class="carousel-item active  col-lg-12 col-sm-12 col-md-12">
           <div class="card-wrapper container-sm d-flex   justify-content-around">
             <!--  FIRST CARD -->
-            <div class="card col-lg-4 col-sm-12 col-md-12" style="width: 18rem;">
+            <div class="card col-12 col-md-4" style="width: 18rem;">
               <div class="card-body ourservicesfirstcard">
                 <img src="assets/img/card1.png" class="img-fluid" alt="">
                 <h5 class="card-title">Aesthetic Gynecology</h5>
@@ -212,20 +252,20 @@
               </div>
             </div>
             <!--  SECOND CARD -->
-            <div class="col-4 col-lg-4 col-sm-4 col-md-4">
+            <div class="col-12 col-md-4">
               <div class="card" style="width: 18rem;">
                 <div class="card-body ourservicessecondcard">
                   <img src="assets/img/card3.png" alt="">
                   <h5 class="card-title">Experienced Team </h5>
-                  <p class="card-text pb-4">Our highly trained and compassionate team of gynecologists and plastic
+                  <p class="card-text pb-5 mb-5">Our highly trained and compassionate team of gynecologists and plastic
                     surgeons have years of experience providing safe and effective procedures.</p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
               </div>
             </div>
             <!--  THIRD  CARD -->
-            <div class="card col-lg-4 col-sm-4 col-md-4" style="width: 18rem;">
-              <div class="card-body ourservicesthirdcard">
+            <div class="col-12 col-md-4" style="width: 18rem;">
+              <div class="card-body ourservicesthirdcard p-5">
                 <img src="assets/img/card2.png" alt="">
                 <h5 class="card-title">State-of-the-art-Technology</h5>
                 <p class="card-text">The Couples Clinic at Aruna Hospital is equipped with the latest technology and
@@ -238,7 +278,7 @@
         <div class="carousel-item  col-lg-12 col-sm-12 col-md-12">
           <div class="card-wrapper container-sm d-flex   justify-content-around">
             <!--  FOURTH  CARD -->
-            <div class="card col-lg-4 col-sm-4 col-md-4" style="width: 18rem;">
+            <div class="card col-12 col-md-4" style="width: 18rem;">
               <div class="card-body ourservicesfirstcard">
                 <img src="assets/img/card2.png" alt="">
                 <h5 class="card-title">Pleasent Environment</h5>
@@ -249,7 +289,7 @@
               </div>
             </div>
             <!--  FIFTH  CARD -->
-            <div class="card col-lg-4 col-sm-4 col-md-4 " style="width: 18rem;">
+            <div class="card col-12 col-md-4 " style="width: 18rem;">
               <div class="card-body ourservicessecondcard">
                 <img src="assets/img/card2.png" alt="">
                 <h5 class="card-title">Personal support</h5>
@@ -261,7 +301,7 @@
               </div>
             </div>
             <!--  SIXTH  CARD -->
-            <div class="card col-lg-4 col-sm-4 col-md-4 " style="width: 18rem;">
+            <div class="card col-12 col-md-4 " style="width: 18rem;">
               <div class="card-body ourservicesthirdcard">
                 <img src="assets/img/card2.png" alt="">
                 <h5 class="card-title">State-of-the-art-Technology</h5>
@@ -339,7 +379,7 @@
             is committed to providing you with personalized care and exceptional results. </h6>
           <br>
           <br>
-          <a href="#" class="btn btn-primary">learn more</a>
+          <a href="about.html" class="btn btn-primary">learn more</a>
         </div>
         <div class="col-lg-6 col-sm-12 col-md-12">
           <img src="assets/img/image3.png" class="img-fluid" alt="">
@@ -354,7 +394,7 @@
     <div class="container-fluid Vaginalrejuvenation p-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-sm-12 col-md-12">
+          <div class="col-lg-6 col-sm-12 col-md-12" >
             <!--  BOOTSTRAP ACCORDION -->
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
@@ -367,7 +407,8 @@
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                   aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
+                  <div class="accordion-body" style="background-color:  #00304D; color: #ffff;
+                  ">
                     <!-- <strong>This is the first item's accordion body.</strong> -->
                     <li>Vaginal Rejuvenation</li>
                     <li>Urinary Incontinence</li>
@@ -377,7 +418,7 @@
                     <li>G-Shot</li>
                     <li>O-Shot</li>
                     <!-- <code>.accordion-body</code> -->
-                    <a href="femalenonsurgical.html" class="btn btn-primary">Click Here</a>
+                    <a href="femalenonsurgical.html" class="btn btn-dark">Click Here</a>
                   </div>
                 </div>
               </div>
@@ -391,7 +432,8 @@
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
+                  <div class="accordion-body" style="background-color:  
+                  #046BA3; color: #ffff;">
                     <!-- <strong>This is the first item's accordion body.</strong> -->
                     <li>Hymenoplasty</li>
                     <li>Labiominoraplasty</li>
@@ -400,7 +442,7 @@
                     <li>Clitoral unhooding</li>
                     <li>Monsplasty</li>
                     <!-- <code>.accordion-body</code> -->
-                    <a href="femalesurgical.html" class="btn btn-primary">Click Here</a>
+                    <a href="femalesurgical.html" class="btn btn-dark">Click Here</a>
                   </div>
                 </div>
               </div>
@@ -414,13 +456,13 @@
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
+                  <div class="accordion-body" style="background-color:  #00304D; color: #ffff;">
                     <!-- <strong>This is the first item's accordion body.</strong> -->
                     <li>Erectile Dysfunction </li>
                     <li>Urine Incontinence </li>
                     <li>Premature Ejaculation </li>
                     <!-- <code>.accordion-body</code> -->
-                    <a href="male.html" class="btn btn-primary">Click Here</a>
+                    <a href="male.html" class="btn btn-dark">Click Here</a>
                   </div>
                 </div>
               </div>
@@ -434,7 +476,7 @@
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
+                  <div class="accordion-body" style="background-color:  #00304D; color: #ffff;">
                     <!-- <strong>This is the first item's accordion body.</strong> -->
                     <li>Urine Incontinence</li>
                     <li>Premature Ejaculation</li>
@@ -443,7 +485,7 @@
                     <li>HIFEM Chair ( Emsella Chair)</li>
                     <li>P-Shot</li>
                     <!-- <code>.accordion-body</code> -->
-                    <a href="ExectileDysfunctionProcedure.html" class="btn btn-primary">Click Here</a>
+                    <a href="ExectileDysfunctionProcedure.html" class="btn btn-dark">Click Here</a>
                   </div>
                 </div>
               </div>
@@ -483,7 +525,7 @@
               personalized care and exceptional results. </h6>
             <h6>Our experienced team offers individual support in a discreet and pleasent atmosphere </h6>
             <br><br>
-            <a href="#" class="btn btn-primary">Join Us</a>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
           </div>
           <div class="col-lg-6 col-sm-12 col-md-12 row ">
             <div class="col-lg-4 col-sm-6 col-md-6">
@@ -503,40 +545,36 @@
   <!-- ENDING   OUR DOCTORS -->
 
   <!--  FOUNDERS -->
-  <section>
+  <!-- <section>
     <div class="container founders p-5 mb-5 rounded">
       <div class="row">
-        <!--  FOUNDERS FIRST PART -->
+         FOUNDERS FIRST PART
         <div class="col-lg-3  col-sm-6 col-md-6 d-flex">
           <img src="assets/img/Group.svg" alt="">
-          <div class="ps-3 pe-5" style="border-right:1px solid #000;">
+          <div class="ps-4 pe-1" style="border-right:1px solid #000;">
             <h1>22</h1>
             <h6>Founders</h6>
           </div>
         </div>
-        <!--  FOUNDERS SECOND PART -->
-        <div class="col-lg-3  col-sm-6 col-md-6 row">
-          <div class="col-3">
+         FOUNDERS SECOND PART
+        <div class="col-lg-3  col-sm-6 col-md-6 d-flex">
             <img src="assets/img/Group (1).svg" alt="">
-          </div>
-          <div class="col-9">
+          <div class="col-9" style="border-right:1px solid #000;">
             <h1>567+</h1>
             <h6>Happy Patients</h6>
           </div>
         </div>
-        <!--  FOUNDERS THIRD PART -->
-        <div class="col-lg-3  col-sm-6 col-md-6 row">
-          <div class="col-3">
+         FOUNDERS THIRD PART
+        <div class="col-lg-3  col-sm-6 col-md-6 ps-4 d-flex">
             <img src="assets/img/Group (2).svg" alt="">
-          </div>
-          <div class="col-9">
+          <div class="col-9" style="border-right:1px solid #000;">
             <h1>48</h1>
             <h6>Number of staffs</h6>
           </div>
         </div>
-        <!--  FOUNDERS FOURTH  PART -->
-        <div class="col-lg-3 col-sm-6 col-md-6 row">
-          <div class="col-3">
+         FOUNDERS FOURTH  PART
+        <div class="col-lg-3 col-sm-6 col-md-6 d-flex">
+          <div class="col-3"> 
             <img src="assets/img/Group (3).svg" alt="">
           </div>
           <div class="col-9">
@@ -546,9 +584,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- ENDING FOUNDERS -->
 
+   
   <!--  FOOTER -->
 
   <footer>
