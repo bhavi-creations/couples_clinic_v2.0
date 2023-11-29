@@ -60,7 +60,35 @@ h6{
 
 
 /*  INDEX PAGE    --------------------------------------------------------------------- */
- 
+
+.jcom_logo{
+  width: 247px;
+  height: 62.561px;
+  flex-shrink: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 54px;
+}
+
+#navlink2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
 
 .navbarsearchimage img{
   background-color: #00304D;
@@ -322,13 +350,13 @@ h6{
   }
 }
 
-/* Adjust for mobile devices */
-/* @media (max-width: 480px) {
+/* Adjust for mobile devices */  
+ @media (max-width: 480px) {
   .contactus {
     height: 200px;  
     background-size: cover;  
   }
-} */
+}
 
 .contactus::before {
   content: "";
