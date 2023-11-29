@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Work+Sans&display=swap');
 
 /* TAGS------------------------------------------------------------------------------- */
 
@@ -450,32 +451,51 @@ h6{
 
 #footer{
   background-color: #00527E;
-  color: #FFF;
+  /* color: #FFF;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif; */
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 #footer h6{
-  color: #FFF;
+  /* color: #FFF;
   font-size:  17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif; */
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 
 #footer h6 a{
-  color: #FFF;
+  /* color: #FFF;
   font-size:  17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   font-family: 'Inter', sans-serif;
-  text-decoration: none;
+  text-decoration: none; */
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;  
 }
 
 .footerfirstblock{
