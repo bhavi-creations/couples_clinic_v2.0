@@ -83,7 +83,7 @@ h6{
 
 #navlink2 {
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -100,7 +100,7 @@ h6{
 
 .navbarphonenumber{
   color: #171010;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 19.221px;
   font-style: normal;
   font-weight: 500;
@@ -237,7 +237,7 @@ h6{
 .founders h6{
   color: #00061A;
   text-align: center;
-  font-family: Work Sans;
+  font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -274,10 +274,11 @@ h6{
   }
 }
 
-@media (max-width: 768px) {
+/* Adjust for mobile devices */  
+ @media (max-width: 480px) {
   .aboutus {
     height: 200px;  
-    background-size: contain;  
+    background-size: cover;  
   }
 }
 
@@ -333,8 +334,8 @@ h6{
 } */
 
 
-
-.contactus {
+   /*-- contact page background image code ----- */
+/* .contactus {
   background-image: url("img/contact us image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -343,23 +344,59 @@ h6{
   position: relative;
 }
 
-/* Adjust for tablets */
+Adjust for tablets
 @media (max-width: 768px) {
   .contactus {
-    height: 300px; /* Adjust the height for tablets */
-    background-size: cover; /* You can use 'contain' if needed for tablets */
+    height: 300px;  
+    background-size: cover;  
   }
 }
 
-/* Adjust for mobile devices */  
+Adjust for mobile devices  
  @media (max-width: 480px) {
   .contactus {
     height: 200px;  
     background-size: cover;  
   }
+} */
+
+.contactus {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
 }
 
-.contactus::before {
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  .contactus {
+    height: 300px; /* Adjust the height for tablets */
+  }
+}
+
+/* Adjust for mobile devices */  
+@media (max-width: 480px) {
+  .contactus {
+    height: 200px;
+  }
+}
+
+/* .contactus::before {
   content: "";
   position: absolute;
   top: 0;
@@ -367,7 +404,7 @@ h6{
   width: 100%;
   height: 100%;
   background-color: rgba(192, 225, 236, 0.7); 
-}
+} */
 
 .contactuscontent{
    position: relative;
@@ -380,15 +417,52 @@ h6{
   margin-left: 12%;
   margin-right: 15%;
   box-shadow: 40px 40px 40px 15px rgba(32, 32, 32, 0.1);
-  background: #FFF; /* Add a background color */
-  border-radius: 10px; /* Add border-radius for a rounded appearance */
-  padding: 20px; /* Add padding for content spacing */
+  background: #FFF;  
+  border-radius: 10px;  
+  padding: 20px;  
 }
 
-/* 
-#getintouchid{
-  margin-left: 14%;
-} */
+#appoinmentfrom input {
+  width: 100%;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #F3F3F3;
+  color: #444;
+  border: 5px  black ;
+  margin-bottom: 4%
+}
+
+#appoinmentfromselect{
+  width: 100%;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background:  #F3F3F3;
+  color: #444;
+  border: 5px  black ;
+  margin-bottom: 4%;
+}
+
+#appoinmentsubmitbtn{
+  background-color:#024262;
+  color: #FFF;
+  font-size:  15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.aboutbtn{
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 
 
