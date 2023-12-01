@@ -212,10 +212,24 @@ h6{
 
 /* OUR SERVICES */
 
-.ourservices img{
-  padding-left: 16%;
-  
+.service-div{
+  padding: 30px 25px;
+  height: 100%;
 }
+
+.service-div .card-body{
+  height: 450px;
+  padding: 40px;
+}
+
+.service-div .card-title{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* .ourservices img{
+  padding-left: 16%;
+} */
 
 .ourservicesfirstcard{
   background-color: #F1DAF7;
@@ -633,4 +647,21 @@ Adjust for mobile devices
   position: fixed;
   z-index: 9999;
   background-color: #FFF;
+}
+
+
+/* Style for the WhatsApp link */
+.whatsapp-link {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
 }
