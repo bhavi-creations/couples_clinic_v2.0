@@ -501,15 +501,20 @@ Adjust for mobile devices
   margin-bottom: 4%
 }
 
-#appoinmentsubmitbtn{
-  background-color:#024262;
-  color: #FFF;
-  font-size:  15px;
+#contactbutton{
+  background-color: #036DA4;
+  /* color: #FFF; */
+  color: #FEFEFE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  padding-left: 40%;
-  padding-right: 40%;
+  line-height: normal; 
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-left: 15%;
+  margin-right: 5%;
+
 }
 
 .aboutbtn{
