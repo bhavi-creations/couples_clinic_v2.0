@@ -30,9 +30,10 @@
 <body>
 
   <!-- HEADER   -->
+
   <!-- Header Large Screen only  -->
 
-  <nav class="navbar navbar-expand-lg navbar-light d-sm-none d-md-none d-lg-flex  shadow">
+  <nav class="navbar navbar-expand-lg navbar-light d-sm-none d-md-block d-lg-flex  shadow">
     <a class="navbar-brand" href="#">
       <img src="assets/img/logo.png" alt="">
     </a>
@@ -58,81 +59,49 @@
     </div>
   </nav>
 
-  <!-- Header Medium  screen only  -->
 
-  <nav class="navbar navbar-expand-lg navbar-light  d-sm-none  d-md-block  d-lg-none shadow">
-    <a class="navbar-brand" href="#">
-      <img src="assets/img/logo.png" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto justify-content-between">
-        <a class="nav-item nav-link" href="#" id="navlink2">
-          <img src="assets/img/logo.png" alt="">
-        </a>
-        <a class="nav-item nav-link" href="#" id="navlink2">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/phone.svg" alt="">
-            <h5 class="ml-2">+79979901881</h5>
-          </div>
-        </a>
-        <a class="nav-item nav-link mt-2" href="appoinment.html" id="navlink2">
-          <button type="button" class="btn btn-primary" id="button">APPOINTMENT</button>
-        </a>
-      </div>
+  <!-- Header Small Screen only -->
+
+<nav class="navbar  navbar-light d-block d-md-none d-lg-none shadow">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo.png" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto justify-content-between">
+      <a class="nav-item nav-link" href="#" id="navlink1">
+        <div class="d-flex align-items-center">
+          <img src="assets/img/phone.svg" alt="">
+          <h5 class="ml-2">+79979901881</h5>
+        </div>
+      </a>
+      <a class="nav-item nav-link mt-2" href="index.html" id="navlink2">
+        <h5>Home</h5>
+      </a>
+      <a class="nav-item nav-link mt-2" href="about.html" id="navlink3">
+        <h5>About</h5>
+      </a>
+      <a class="nav-item nav-link mt-2" href="#ourservices" id="navlink4">
+        <h5>Services</h5>
+      </a>
+      <a class="nav-item nav-link mt-2" href="gallery.html" id="navlink5">
+        <h5>Gallery</h5>
+      </a>
+      <a class="nav-item nav-link mt-2" href="contact.html" id="navlink6">
+        <h5>Contact</h5>
+      </a>
+      <a class="nav-item nav-link mt-2 pt-4" href="appoinment.html" id="navlink7">
+        <button type="button" class="btn btn-primary" id="button">APPOINTMENT</button>
+      </a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Ending Medium  screen only  -->
+<!-- Ending Header Small Screen only -->
 
-
-  <!-- Header Small Screen only  -->
-
-  <nav class="navbar  navbar-light d-block d-md-none d-lg-none shadow">
-    <a class="navbar-brand" href="#">
-      <img src="assets/img/logo.png" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto justify-content-between">
-        <a class="nav-item nav-link" href="#" id="navlink2">
-          <img src="assets/img/logo.png" alt="">
-        </a>
-        <a class="nav-item nav-link" href="#" id="navlink2">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/phone.svg" alt="">
-            <h5 class="ml-2">+79979901881</h5>
-          </div>
-        </a>
-        <a class="nav-item nav-link mt-2" href="index.html" id="navlink2">
-          <h5>Home</h5>
-        </a>
-        <a class="nav-item nav-link mt-2" href="about.html" id="navlink2">
-          <h5>About</h5>
-        </a>
-        <a class="nav-item nav-link mt-2" href="#ourservices" id="navlink2">
-          <h5>Services</h5>
-        </a>
-        <a class="nav-item nav-link mt-2" href="gallery.html" id="navlink2">
-          <h5>Gallery</h5>
-        </a>
-        <a class="nav-item nav-link mt-2" href="contact.html" id="navlink2">
-          <h5>Contact</h5>
-        </a>
-        <a class="nav-item nav-link mt-2 pt-4" href="appoinment.html" id="navlink2">
-          <button type="button" class="btn btn-primary" id="button">APPOINTMENT</button>
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Ending Header Small Screen only -->
 
 
   <!-- Ending  Header -->
@@ -239,8 +208,10 @@
               <p>Contact</p>
             </a>
           </div>
-          <div class="col-4" id="fulfilinglovenavbarpartsearch">
-            <img src="assets/img/search (2).png" alt="" height="80%" width="50%">
+          <div class="col-4 ms-3 mb-1" id="fulfilinglovenavbarpartsearch" >
+            <!-- <img src="assets/img/search (2).png" alt="" height="80%" width="50%"> -->
+             <img src="assets/img/searchicon.png" alt=""   >
+            </a>
           </div>
         </div>
       </div>
@@ -561,34 +532,46 @@
 
             <div id="additionalContent1" style="display: none;">
               <!-- Additional content for the first accordion -->
-              <h1>Female Non Surgical</h1>
+              <h1 class="text-center mb-3">Female Non Surgical</h1>
+              <img src="assets/img/vaginalimg1.png" alt="" class="img-fluid mb-4">
               <h6>At Aruna Hospital Couple Clinics, we understand that every woman is unique, and so are her beauty goals. Step into a world where we celebrate your individuality and offer a range of non-surgical treatments tailored to enhance your natural radiance.</h6>
               <!-- ... Your content ... -->
+              <div class="nomore text-center"> 
               <a href="femalenonsurgical.html" class="btn btn-primary" id="button">no more</a>
+             </div>
             </div>
     
             <div id="additionalContent2" style="display: none;">
               <!-- Additional content for the second accordion -->
-              <h1>Female Surgical</h1>
+              <h1 class="text-center mb-3">Female Surgical</h1>
+              <img src="assets/img/vaginalimg2.png" alt="" class="img-fluid mb-4">
               <h6>At Aruna Hospital Couple Clinics, we understand the importance of surgical excellence in achieving transformative and lasting results. Step into a realm where our skilled surgeons combine artistry with precision to enhance your beauty through surgical treatments tailored to your unique desires.</h6>
               <!-- ... Your content ... -->
+              <div class="nomore text-center"> 
               <a href="femalesurgical.html" class="btn btn-primary" id="button">no more</a>
+              </div>
             </div>
     
             <div id="additionalContent3" style="display: none;">
               <!-- Additional content for the third accordion -->
-              <h1>Male</h1>
+              <h1 class="text-center mb-3">Male</h1>
+              <img src="assets/img/vaginalimg3.png" alt="" class="img-fluid mb-4">
               <h6>At Aruna Hospital, where we prioritize the health and well-being of every individual. Our commitment extends to providing specialized and comprehensive treatments designed specifically for men.</h6>
               <!-- ... Your content ... -->
+              <div class="nomore text-center"> 
               <a href="male.html" class="btn btn-primary" id="button">no more</a>
+              </div>
             </div>
     
             <div id="additionalContent4" style="display: none;">
               <!-- Additional content for the fourth accordion -->
-              <h1>Erectile Dysfunction Procedure</h1>
+              <h1 class="mb-3">Erectile Dysfunction Procedure</h1>
+              <img src="assets/img/vaginalimg4.png" alt="" class="img-fluid mb-4">
               <h6>At Aruna Hospital, we pride ourselves on offering cutting-edge medical care supported by advanced equipment. Our state-of-the-art facilities include diagnostic tools like MRI and CT scanners, ensuring precise and comprehensive imaging. From high-tech surgical instruments to modern patient monitoring systems, we are committed to providing the best in healthcare. Our investment in advanced equipment reflects our dedication to delivering accurate diagnoses, effective treatments, and compassionate care.</h6>
               <!-- ... Your content ... -->
-              <a href="ExectileDysfunctionProcedure.html" class="btn btn-primary" id="button">no more</a>
+              <div class="nomore text-center"> 
+                 <a href="ExectileDysfunctionProcedure.html" class="btn btn-primary" id="button">no more</a>
+              </div>
             </div>
           </div>
 
@@ -779,8 +762,8 @@
 
   <script>
     $('#side-btn-click').click(() => {
-       // $('.side-btn-div').removeClass('d-none');
-       // $('.side-btn-div').addClass('d-block');
+      // $('.side-btn-div').removeClass('d-none');
+      // $('.side-btn-div').addClass('d-block');
       // $('.side-btn-div').toggleClass('d-none');
     })
 
