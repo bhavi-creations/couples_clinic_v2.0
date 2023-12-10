@@ -719,3 +719,38 @@ Adjust for mobile devices
   font-size: 24px;
   text-align: center;
 }
+
+/* Style for the  scroll down  button */
+
+.circle-icon-container {
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px; /* Add some padding for spacing */
+  }
+  .circle-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color:#024262;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+ 
+  }
+
+  .circle-icon i {
+	font-size: 24px; /* Adjust the font size as needed */
+  }
+
+
+  .circle-icon-container .circle-icon a:hover{
+	/* color:aqua; */
+  color: #25d366;
+	text-decoration: none;
+  }
