@@ -62,6 +62,21 @@ h6{
 }
 
 
+
+  .navbar.fixed-top {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+  }
+
+  body {
+      padding-top: 5%; /* Adjust the percentage based on your design */
+  }
+
+
+
 /*  ENDING TAGS   -------------------------------------------------------------------- */
 
 
