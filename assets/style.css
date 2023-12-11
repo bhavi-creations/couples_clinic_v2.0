@@ -593,7 +593,7 @@ Adjust for mobile devices
 }
 
 .mainsectionimage{
-   padding: 10% 5% 0% 20% ;
+   /* padding: 10% 5% 0% 20% ; */
 }
 
 #appoinmentfrom input {
@@ -700,7 +700,7 @@ Adjust for mobile devices
 .fulfilingloveiconbar{
   position: fixed;
   z-index: 9999;
-  background-color: #FFF;
+  /* background-color: #FFF; */
 }
 
 
