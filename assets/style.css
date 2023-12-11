@@ -759,3 +759,10 @@ Adjust for mobile devices
   color: #25d366;
 	text-decoration: none;
   }
+
+  .slant-shadow{
+    box-shadow: 6px -2px 8px 0px rgb(0 0 0 / 21%);
+    transform: skewX(339deg);
+    height: 80px;
+    color: #fff;
+  }
