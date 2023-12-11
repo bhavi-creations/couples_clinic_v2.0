@@ -655,6 +655,10 @@
               <a href="femalenonsurgical.html" class="btn btn-primary" id="button">no more</a>
             </div> -->
 
+            <div id="videoContent" style="display: block;" >
+              <video src="assets/img/home_video.mp4" autoplay loop muted></video>
+            </div>
+
             <div id="additionalContent1" style="display: none;">
               <!-- Additional content for the first accordion -->
               <h1 class="text-center mb-3">Female Non Surgical</h1>
@@ -819,6 +823,7 @@
 
       accordionButtons.forEach(function (button, index) {
         button.addEventListener('click', function () {
+          document.getElementById('videoContent').style.display = 'none';
           // Show or hide additional content based on the accordion item
           additionalContents.forEach(function (content, contentIndex) {
             content.style.display = index === contentIndex ? 'block' : 'none';
