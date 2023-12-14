@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+*<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -111,26 +111,27 @@
                 <div class="col-lg-6 col-sm-12 col-md-12">
                     <h1 class="mt-4 ms-5 pt-2">Make An Appoinment</h1>
                     <br>
-                    <form id="appoinmentfrom">
-                        <input type="text" placeholder="Your Name" class="p-3" required>
-                        <input type="text" placeholder="Your Email" class="p-3" required>
-                        <select id="appoinmentfromselect" name="gender"  class="ps-2" required>
+                    <form id="appoinmentfrom" action="appointmentmail.php" method="post" >
+                        <input type="text" placeholder="Your Name" class="p-3"  name="name" required>
+                        <input type="text" placeholder="Your Email" class="p-3" name="email"  required>
+                        <select id="appoinmentfromselect" name="gender"  class="ps-2"     required>
                             <option value="" disabled selected>Select Option</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                             <option value="other">Other</option>
                         </select>
                         <br>
-                        <input type="text" placeholder="Appoinment Date"  class="p-3" required>
+                        <input type="date" placeholder="Appoinment Date"   name="date"  class="p-3" required>
                         <br>
                         <div class="writeyourmessage"> 
-                        <input type="text"  placeholder="write Your Message"
+                        <input type="text"  placeholder="write Your Message" name="message"
                          style="height: 100px;" class="p-3"
                         required>    
                         </div>
-                        <!-- <input type="submit"  id="submit" value="SUBMIT FORM"> -->
+                        <!-- <input type="submit" id="appoinmentsubmitbtn"  class="btn btn-primary"value="SUBMIT FORM"> -->
                         <!-- <button type="button" class="btn btn-primary btn-lg btn-block">SUBMIT FORM</button> -->
-                        <a href="#" class="btn btn-primary" id="appoinmentsubmitbtn">SUBMIT FORM</a>
+                        <input type="submit" class="btn btn-primary text-light" id="appoinmentsubmitbtn" style="background-color: #003655" value="SUBMIT FORM" >
+
                     </form>
                 </div>
             </div>
