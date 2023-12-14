@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Successfully Submitted')
-        window.location.href='appointment.php';
+        window.location.href='appointment.html';
         </SCRIPT>");
 
     } catch (Exception $e) {

@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
         echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Successfully Submitted')
-        window.location.href='contact.php';
+        window.location.href='contact.html';
         </SCRIPT>");
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
