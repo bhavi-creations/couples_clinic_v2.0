@@ -133,15 +133,15 @@
           <div class="col-lg-6  col-md-12  col-sm-12">
             <h1 class="mt-5 ms-5">Get In touch</h1>
             <br>
-            <form id="contactform pe-5">
-                <input type="text" placeholder="Your Name" class="ps-3" required>
+            <form id="contactform pe-5" action="contactmail.php" method="post">
+                <input type="text" placeholder="Your Name" name="contactname" class="ps-3" required >
                 <br>
-                <input type="text" placeholder="Your Email"  class="ps-3" required>
+                <input type="text" placeholder="Your Email" name="contactmail"  class="ps-3" required>
                 <br>
-                <input type="text" placeholder="write Your Message"  class="ps-3 pb-5"
+                <input type="text" placeholder="write Your Message" name="contactmessage"  class="ps-3 pb-5"
                 style="height: 240px;" required>
                 <br>
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="contactbutton" >Submit</button>
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="contactbutton" >Submit</button>
             </form>
         </div>
         </div>

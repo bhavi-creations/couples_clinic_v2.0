@@ -7,10 +7,9 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
-    $name = $_POST['name'] ?? '';
-    $phone = $_POST['phone'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $message = $_POST['message'] ?? '';
+    $contactname = $_POST['contactname'] ?? '';
+    $contactmail = $_POST['contactmail'] ?? '';
+    $contactmessage = $_POST['contactmessage'] ?? '';
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -20,28 +19,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'hindudharmikapeetham@gmail.com'; // Your Gmail email address
-        $mail->Password = 'nqjooowkogltuuld'; // Your Gmail password
+        $mail->Username = 'srimadhuraju@gmail.com'; // Your Gmail email address
+        $mail->Password = 'umlpkduhhhajjahi'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('hindudharmikapeetham@gmail.com', 'Hindu Dharmika Peetham'); // Your Gmail email and name
-        $mail->addAddress('hindudharmikapeetham@gmail.com', 'Hindu Dharmika Peetham'); // Recipient's email and name
+        $mail->setFrom('srimadhuraju@gmail.com', 'Couple Clinic'); // Your Gmail email and name
+        $mail->addAddress('srimadhuraju@gmail.com', 'Couple Clinic'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'New Message from Contact Form';
         $mail->Body = "
             <h1>New Message</h1>
-            <p><strong>Name:</strong> $name</p>
-            <p><strong>Phone:</strong> $phone</p>
-            <p><strong>Email:</strong> $email</p>
-            <p><strong>Message:</strong><br>$message</p>
+            <p><strong>Name:</strong> $contactname</p>
+            <p><strong>Mail:</strong> $contactmail</p>
+            <p><strong>Message:</strong><br>$contactmessage</p>
         ";
 
         $mail->send();
-        echo 'Message has been sent';
+        echo ("<SCRIPT LANGUAGE='JavaScript'>
+        window.alert('Successfully Submitted')
+        window.location.href='contact.php';
+        </SCRIPT>");
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
