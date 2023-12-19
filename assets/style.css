@@ -326,6 +326,7 @@ h6{
   text-decoration: none;
 }
 
+
 /* OUR DOCTORS */
 
 .ourdoctors h1{
@@ -764,5 +765,12 @@ Adjust for mobile devices
     box-shadow: 6px -2px 8px 0px rgb(0 0 0 / 21%);
     transform: skewX(339deg);
     height: 80px;
+    color: #fff;
+  }
+ 
+  .slant1-shadow{
+    box-shadow: 6px -2px 8px 0px rgb(0 0 0 / 21%);
+    transform: skewX(339deg);
+    height: 5px;
     color: #fff;
   }
