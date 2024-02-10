@@ -23,18 +23,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'srimadhuraju@gmail.com'; // Your Gmail email address
-        $mail->Password = 'umlpkduhhhajjahi'; // Your Gmail password
+        $mail->Username = 'arunahospitalkakinada2023@gmail.com'; // Your Gmail email address
+        $mail->Password = 'qialhzzlxuhtvvce'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('srimadhuraju@gmail.com', 'Couple Clinic'); // Your Gmail email and name
-        $mail->addAddress('srimadhuraju@gmail.com', 'Couple Clinic'); // Recipient's email and name
+        $mail->setFrom('arunahospitalkakinada2023@gmail.com', 'Couple Clinic'); // Your Gmail email and name
+        $mail->addAddress('arunahospitalkakinada2023@gmail.com', 'Couple Clinic'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Message from Contact Form';
+        $mail->Subject = 'New Message from Appointment Form';
         $mail->Body = "
             <h1>New Message</h1>
             <p><strong>Name:</strong> $name</p>
