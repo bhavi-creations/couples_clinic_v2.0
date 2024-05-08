@@ -24,7 +24,6 @@ h1{
   font-weight: 500;
   line-height: 52px;
   letter-spacing: 0em;
-  /* letter-spacing: 1px; */
   text-align: left;
   color:  #003655;
 }
@@ -160,12 +159,6 @@ h6{
   color: #222222;
 }
 
-/* .fulfilingloveiconbar{
-  position:  absolute;
-  top:4%;
-} */
-
-
 
 #fulfilinglovenavbarpart{
   position: relative;
@@ -196,12 +189,8 @@ h6{
 }
 
 #fulfilinglovenavbarpartsearch{
-  /* margin-top: -3%; */
   width: 47px;
   height: 46px;
-  /* position: fixed; */
-  /* bottom: 20px;
-  right: 20px; */
   background-color: #00304D;
   color: #fff;
   padding: 5px;
@@ -276,9 +265,6 @@ h6{
   padding-bottom: 10px;
 }
 
-/* .ourservices img{
-  padding-left: 16%;
-} */
 
 .ourservicesfirstcard{
   background-color: #F1DAF7;
@@ -335,7 +321,6 @@ h6{
   font-weight: 500;
   line-height: 52px;
   letter-spacing: 0em;
-  /* letter-spacing: 1px; */
   text-align: left;
   color:  #003655;
 }
@@ -347,10 +332,7 @@ h6{
   height: auto;
   width: auto;
 }
-/* .founders img{
-  height: 39%;
-  width: 50%;
-} */
+ 
 .founders h1{
   color: #00061A;
   font-family: 'Work Sans', sans-serif;
@@ -372,13 +354,8 @@ h6{
 
 /*  ABOUT PAGE    -------------------------------------------------------------- */
  
-/* .aboutus {
-  background-image: url("img/about.png");
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 100%;
-  position: relative;  
-} */
+ 
+
 .aboutus {
   background-image: url("img/best_couples_clinic_Aruna_couples_clinic.png");
   background-repeat: no-repeat;
@@ -431,13 +408,7 @@ h6{
   padding: 20px; /* Add padding for content spacing */
 }
 
-/* .ourstory{
-  position: relative;
-  margin-top: -2%;
-  margin-left: 12%;
-  margin-right: 15%;
-  box-shadow: 20px 20px 20px 15px rgba(32, 32, 32, 0.1);
-} */
+ 
 
  
 
@@ -448,41 +419,7 @@ h6{
 
 /*   CONTACT  PAGE   -------------------------------------------------------------- */
 
-/* .contactus {
-  background-image: url("img/contact\ us\ image.jpeg");
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 100%;
-  position: relative;  
-} */
-
-
-   /*-- contact page background image code ----- */
-/* .contactus {
-  background-image: url("img/contact us image.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
-  width: 100%;
-  position: relative;
-}
-
-Adjust for tablets
-@media (max-width: 768px) {
-  .contactus {
-    height: 300px;  
-    background-size: cover;  
-  }
-}
-
-Adjust for mobile devices  
- @media (max-width: 480px) {
-  .contactus {
-    height: 200px;  
-    background-size: cover;  
-  }
-} */
-
+ 
 .contactus {
   position: relative;
   overflow: hidden;
@@ -519,16 +456,7 @@ Adjust for mobile devices
   }
 }
 
-/* .contactus::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(192, 225, 236, 0.7); 
-} */
-
+ 
 .contactuscontent{
    position: relative;
    padding-top: 16%;
@@ -598,10 +526,7 @@ Adjust for mobile devices
   line-height: normal;
 }
 
-.mainsectionimage{
-   /* padding: 10% 5% 0% 20% ; */
-}
-
+ 
 #appointmentfrom input {
   width: 100%;
   height: 38px;
@@ -642,12 +567,6 @@ Adjust for mobile devices
 
 #footer{
   background-color: #00527E;
-  /* color: #FFF;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: 'Inter', sans-serif; */
   color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -657,12 +576,6 @@ Adjust for mobile devices
 }
 
 #footer h6{
-  /* color: #FFF;
-  font-size:  17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: 'Inter', sans-serif; */
   color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -673,13 +586,6 @@ Adjust for mobile devices
 
 
 #footer h6 a{
-  /* color: #FFF;
-  font-size:  17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: 'Inter', sans-serif;
-  text-decoration: none; */
   color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -706,7 +612,6 @@ Adjust for mobile devices
 .fulfilingloveiconbar{
   position: fixed;
   z-index: 9999;
-  /* background-color: #FFF; */
 }
 
 
